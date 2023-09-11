@@ -2,7 +2,7 @@
 import { ENV } from './open-api';
 
 export default function express({ substore: $, port }) {
-    port = port || 3000;
+    port = port || 7808;
     const { isNode } = ENV();
     const DEFAULT_HEADERS = {
         'Content-Type': 'text/plain;charset=UTF-8',

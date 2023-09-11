@@ -81,7 +81,7 @@ Go to `backend` and `web` directories, install node dependencies:
 npm install
 ```
 
-1. In `backend`, run the backend server on http://localhost:3000
+1. In `backend`, run the backend server on http://localhost:7808
 
 ```
 npm run serve
